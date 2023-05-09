@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>localStorage</title>
+</head>
+<body>
+    <form name="dados" action="" method="">
+        <fieldset>
+            <legend>Dados</legend>
+            <label for="nome">Nome</label> <br>
+            <input type="text" name="fnome" id="fnome" size="20" > <br><br> 
+            <label for="corfundo">Cor de fundo</label> <br>
+            <input type="radio" name="fcorf" id="fcorV" onclick="defineCor(1,'#f00')">Vermelho <br>
+            <input type="radio" name="fcorf" id="fcorR" onclick="defineCor(1,'#0f0')">Verde <br>
+            <input type="radio" name="fcorf" id="fcorA" onclick="defineCor(1,'#00f')">Azul <br><br>
+            <label for="cortext">Cor de texto</label> <br>
+            <input type="radio" name="fcort" id="fcorP" onclick="defineCor(2,'#000')">Preto <br>
+            <input type="radio" name="fcort" id="fcorB" onclick="defineCor(2,'#fff')">Branco <br>
+            <input type="radio" name="fcort" id="fcorA" onclick="defineCor(2,'#ff0')">Amarelo <br><br>
+            <input type="button" value="Gravar" onclick="gravar()">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
+<script src="script.js"></script>

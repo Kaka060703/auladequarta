@@ -1,0 +1,14 @@
+*{
+    padding: 4;
+    margin: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+button{
+    background-color: rgb(167, 240, 153);
+}
+input{
+    border-radius: 5rem;
+    
+}

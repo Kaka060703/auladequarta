@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag1" src="imagem1.jpg" data-peso="20" draggable="true" ondragstart="drag(event)" ondragend="dragEnd(event)" width="336" height="69" ></div>
+    <div id= "div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+    <p>O peso total das suas compras é: <span id="pesoTotal"> kg</span></p>
+</body>
+</html>
+<script src="scrypt.js"></script>

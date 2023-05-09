@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #div1{
+            width: 350px;
+            height: 70px;
+            padding: 10px;
+            border: 1px solid black;       
+        }
+        #div2{
+            width: 340px;
+            height: 60px;
+            
+            border: 1px solid black;
+        }
+    </style>
+    <title>ex1</title>
+</head>
+<body>
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="../img/1.jpg" draggable="true" ondragstart="drag(event)"id="div2">
+    </div>
+    
+    <div style="margin-top: 10px;" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </div>
+
+        
+    <!--<img  src="" draggable="true" ondragstart="drag(event)">-->
+    
+</body>
+</html>
+<script src="index1.js"></script>

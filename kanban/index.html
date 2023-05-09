@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kanban</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <div class="fazer tamanho">
+                <div>
+                    <p class="linha">Fazer</p>
+                </div>
+
+                <div class= "div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <div>
+                        <textarea id="drag1" cols="30" rows="10" draggable="true" ondragstart="drag(event)"></textarea>
+                    </div>
+                </div> 
+                <div class= "div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <div>
+                        <textarea id="drag2" cols="30" rows="10" draggable="true" ondragstart="drag(event)"></textarea>
+                    </div>
+                </div> 
+                <div class= "div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <div>
+                        <textarea id="drag3" cols="30" rows="10" draggable="true" ondragstart="drag(event)"></textarea>
+                    </div>
+                </div>   
+            </div>
+
+
+            <div class="fazendo tamanho">
+                <div>
+                    <p class="linha">Fazendo</p>
+                </div>
+                <div class= "div1"ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class= "div1"ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class= "div1"ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+
+
+            <div class="aprovacao tamanho">
+                <div>
+                    <p class="linha" >Aprovação</p>
+                </div>
+                <div class= "div1"ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class= "div1"ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class= "div1"ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+            </div>
+            <div class="feito tamanho">
+                <div>
+                    <p class="linha">Feito</p>
+                </div>
+                <div class= "div1"ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class= "div1"ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class= "div1"ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
+<script src="scrypt.js"></script>

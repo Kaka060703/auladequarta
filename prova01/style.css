@@ -1,0 +1,9 @@
+.div1{
+    width: 40rem;
+    height: 20rem;
+    border: 2px dashed green;
+    text-align: center;
+}
+*{
+    font-family: cursive;
+}

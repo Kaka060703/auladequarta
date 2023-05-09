@@ -1,0 +1,25 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 5px solid rgb(4, 211, 248);
+    border-radius: 20px;
+}
+.tamanho{
+    border: 5px solid rgb(4, 211, 248);
+    border-radius: 2px;
+    text-align: center;
+    font-family: cursive;
+    height: 50rem;
+}
+.linha{
+    border-bottom: 2px solid  rgb(4, 211, 248);
+    
+}
+.div1 {
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    height: 150px;
+    margin: 10px;
+    }
